@@ -44,7 +44,11 @@ public class homePage extends base {
 	
 	public void getMobileNumber() {
 		System.out.println("check my number");
+		System.out.println("check my 2nd number");
+		System.out.println("check my 3rd number");
 	}
+	
+	
 	
 	@AfterTest
 	public void tearDown() {
