@@ -40,6 +40,12 @@ public class homePage extends base {
 
 	}
 	
+	@Test 
+	
+	public void getMobileNumber() {
+		System.out.println("check my number");
+	}
+	
 	@AfterTest
 	public void tearDown() {
 		driver.close();
