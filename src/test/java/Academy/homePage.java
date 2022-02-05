@@ -1,6 +1,11 @@
 package Academy;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 import org.apache.logging.log4j.*;
 import org.apache.logging.log4j.LogManager;
@@ -39,7 +44,6 @@ public class homePage extends base {
 		log.info("Successfully landed filled the username and password");
 
 	}
-	
 	
 	@AfterTest
 	public void tearDown() {

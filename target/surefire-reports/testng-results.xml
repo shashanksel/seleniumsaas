@@ -2,32 +2,76 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-04T19:12:15 IST" name="Suite" finished-at="2022-02-04T19:12:24 IST" duration-ms="8706">
+  <suite started-at="2022-02-05T19:14:41 IST" name="Suite" finished-at="2022-02-05T19:14:55 IST" duration-ms="14083">
     <groups>
     </groups>
-    <test started-at="2022-02-04T19:12:15 IST" name="Validating Navigation Bar" finished-at="2022-02-04T19:12:21 IST" duration-ms="5886">
+    <test started-at="2022-02-05T19:14:41 IST" name="Validating Navigation Bar" finished-at="2022-02-05T19:14:45 IST" duration-ms="4172">
       <class name="Academy.valNavBar">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Academy.valNavBar@25748410]" started-at="2022-02-04T19:12:15 IST" name="initializeBrowser" finished-at="2022-02-04T19:12:21 IST" duration-ms="5634" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Academy.valNavBar@39c11e6c]" started-at="2022-02-05T19:14:41 IST" name="initializeBrowser" finished-at="2022-02-05T19:14:45 IST" duration-ms="3944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="basePageNavigation()[pri:0, instance:Academy.valNavBar@25748410]" started-at="2022-02-04T19:12:21 IST" name="basePageNavigation" finished-at="2022-02-04T19:12:21 IST" duration-ms="84" status="PASS">
+        <test-method signature="pageNavigationVal()[pri:0, instance:Academy.valNavBar@39c11e6c]" started-at="2022-02-05T19:14:45 IST" name="pageNavigationVal" finished-at="2022-02-05T19:14:45 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.valNavBar@25748410]" started-at="2022-02-04T19:12:21 IST" name="tearDown" finished-at="2022-02-04T19:12:21 IST" duration-ms="102" status="PASS">
+        </test-method> <!-- pageNavigationVal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.valNavBar@39c11e6c]" started-at="2022-02-05T19:14:45 IST" name="tearDown" finished-at="2022-02-05T19:14:45 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.valNavBar -->
     </test> <!-- Validating Navigation Bar -->
-    <test started-at="2022-02-04T19:12:15 IST" name="Validating Title" finished-at="2022-02-04T19:12:22 IST" duration-ms="6482">
-      <class name="Academy.validateTitle">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Academy.validateTitle@2e54db99]" started-at="2022-02-04T19:12:15 IST" name="initializeBrowser" finished-at="2022-02-04T19:12:21 IST" duration-ms="5644" status="PASS">
+    <test started-at="2022-02-05T19:14:46 IST" name="User Login " finished-at="2022-02-05T19:14:52 IST" duration-ms="6225">
+      <class name="Academy.homePage">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Academy.homePage@3704122f]" started-at="2022-02-05T19:14:46 IST" name="initializeBrowser" finished-at="2022-02-05T19:14:49 IST" duration-ms="2790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="basePageNavigation()[pri:0, instance:Academy.validateTitle@2e54db99]" started-at="2022-02-04T19:12:21 IST" name="basePageNavigation" finished-at="2022-02-04T19:12:21 IST" duration-ms="65" status="FAIL">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.homePage@3704122f]" started-at="2022-02-05T19:14:49 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-02-05T19:14:51 IST" duration-ms="1949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrikteduser@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.homePage@3704122f]" started-at="2022-02-05T19:14:51 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-02-05T19:14:52 IST" duration-ms="1416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrikteduser@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.homePage@3704122f]" started-at="2022-02-05T19:14:52 IST" name="tearDown" finished-at="2022-02-05T19:14:52 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.homePage -->
+    </test> <!-- User Login  -->
+    <test started-at="2022-02-05T19:14:52 IST" name="Validating Title" finished-at="2022-02-05T19:14:55 IST" duration-ms="3319">
+      <class name="Academy.validateTitle">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Academy.validateTitle@ea27e34]" started-at="2022-02-05T19:14:52 IST" name="initializeBrowser" finished-at="2022-02-05T19:14:55 IST" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="pageTitleValidation()[pri:0, instance:Academy.validateTitle@ea27e34]" started-at="2022-02-05T19:14:55 IST" name="pageTitleValidation" finished-at="2022-02-05T19:14:55 IST" duration-ms="32" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSES 123] but found [FEATURED COURSES]]]>
@@ -40,7 +84,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at Academy.validateTitle.basePageNavigation(validateTitle.java:38)
+at Academy.validateTitle.pageTitleValidation(validateTitle.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,68 +101,33 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:808)
 at org.testng.TestRunner.run(TestRunner.java:603)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.validateTitle@2e54db99]" started-at="2022-02-04T19:12:22 IST" name="tearDown" finished-at="2022-02-04T19:12:22 IST" duration-ms="76" status="PASS">
+        </test-method> <!-- pageTitleValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.validateTitle@ea27e34]" started-at="2022-02-05T19:14:55 IST" name="tearDown" finished-at="2022-02-05T19:14:55 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.validateTitle -->
     </test> <!-- Validating Title -->
-    <test started-at="2022-02-04T19:12:15 IST" name="User Login " finished-at="2022-02-04T19:12:24 IST" duration-ms="8706">
-      <class name="Academy.homePage">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Academy.homePage@2692b61e]" started-at="2022-02-04T19:12:15 IST" name="initializeBrowser" finished-at="2022-02-04T19:12:21 IST" duration-ms="5762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.homePage@2692b61e]" started-at="2022-02-04T19:12:21 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-02-04T19:12:23 IST" duration-ms="1503" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nonrestrikteduser@yopmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345678]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.homePage@2692b61e]" started-at="2022-02-04T19:12:23 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-02-04T19:12:24 IST" duration-ms="1366" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[restrikteduser@yopmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345678]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.homePage@2692b61e]" started-at="2022-02-04T19:12:24 IST" name="tearDown" finished-at="2022-02-04T19:12:24 IST" duration-ms="60" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Academy.homePage -->
-    </test> <!-- User Login  -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,2 +1,6 @@
-19:12:23.063 [TestNG-tests-2] INFO  resources.base - Successfully landed filled the username and password
-19:12:24.434 [TestNG-tests-2] INFO  resources.base - Successfully landed filled the username and password
+19:14:43.918 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x299fd038f2bcff3a
+19:14:45.894 [main] INFO  resources.base - Navigation Bar Validated
+19:14:51.055 [main] INFO  resources.base - Successfully landed filled the username and password
+19:14:52.471 [main] INFO  resources.base - Successfully landed filled the username and password
+19:14:53.698 [main] INFO  resources.base - Driver is Initialised
+19:14:55.470 [main] INFO  resources.base - Navigated to Home Page

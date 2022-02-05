@@ -31,7 +31,7 @@ public class valNavBar extends base {
 	
 	
 	@Test
-	public void basePageNavigation() throws IOException {
+	public void pageNavigationVal() throws IOException {
 		landingPage lgb = new landingPage(driver);
 		Assert.assertTrue(lgb.getNavigationBar().isDisplayed());
 		log.info("Navigation Bar Validated");

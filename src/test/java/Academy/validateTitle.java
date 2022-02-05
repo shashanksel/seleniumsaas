@@ -33,7 +33,7 @@ public class validateTitle extends base {
 	
 	
 	@Test
-	public void basePageNavigation() throws IOException {
+	public void pageTitleValidation() throws IOException {
 		landingPage lgb = new landingPage(driver);
 		Assert.assertEquals(lgb.getTitle().getText(), "FEATURED COURSES 123");
 		log.info("Successfully Validated Page Title");
